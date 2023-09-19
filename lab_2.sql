@@ -16,5 +16,5 @@ LIMIT 20;
 SELECT name, region, population
 FROM cities
 WHERE NOT region IN('E','W')
-ORDER BY population DESC
+ORDER BY population ASC
 LIMIT 10 OFFSET 10; 
